@@ -1,0 +1,258 @@
+body {
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+
+   text-align: center;
+   color: white;
+   background-color: rgb(53, 49, 49);
+   font-size: 100%;
+   border-bottom: white solid 2px;
+}
+
+main {
+   position: absolute;
+   left: 0;
+   top: 81px;
+
+   width: 100%;
+   height: 910px;
+
+   background-image: url("images/background.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-color: black;
+}
+
+.notification {
+   position: absolute;
+   top: 10px;
+   left: 1605px;
+   height: 120px;
+
+   border-radius: 10px;
+   background-color: rgb(10, 10, 86);
+   color: white;
+   text-align: center;
+   width: 300px;
+
+   border: white 2px solid;
+}
+
+main .notification h3 {
+   text-decoration: underline;
+
+}
+
+.box {
+   position: relative;
+   left: 25%;
+   top: 25%;
+   width: 50%;
+   height: 40%;
+
+   background-color: rgb(53, 49, 49);
+   border: white 2px solid;
+   border-radius: 10px;
+}
+
+.box h2 {
+   text-align: center;
+   font-size: 250%;
+   color: white;
+   
+   text-decoration: underline;
+}
+
+.username {
+   position: relative;
+   width: 60%;
+   color: white;
+   left: 20%;
+   top: 30px;
+
+   line-height: 0;
+}
+
+.username p {
+   font-size: 120%;
+}
+
+.username .textbox {
+   height: 25px;
+   width: 100%;
+   color: black;
+}
+
+.username .connect {
+   position: relative;
+   font-size: 150%;
+
+   width: 101%;
+   height: 10%;
+
+   left: 1px;
+   top: 20px;
+
+   line-height: 30px;
+   text-align: center;
+
+   color: white;
+   background-color: rgb(10, 10, 86);
+   
+   border-radius: 5px;
+   border: 2px solid rgb(0,0,0,0);
+
+   cursor: pointer;
+}
+
+.connect:hover {
+   background-color: white;
+   color: black;
+   
+   border: 2px solid black;
+}
+
+.chat-box {
+   position: absolute;
+   background-color: rgb(53, 49, 49);
+   border: white solid 2px;
+   border-radius: 10px;
+
+   top: 20%;
+   left: 30%;
+
+   width: 40%;
+   height: 60%;
+}
+
+.chat-box h4 {
+   position: relative;
+   left: 10px;
+   bottom: 10px;
+
+   color: white;
+}
+
+.most-recent {
+   position: relative;
+   top: 10px;
+   width: fit-content;
+   padding-left: 10px;
+   max-width: 90%;
+   right: 10px;
+   float: right;
+
+   color: white;
+
+   display: grid;
+   grid-template-columns: 10fr 1fr;
+   column-gap: 10px;
+
+   box-shadow: 0px 0px 10px 2px black;
+
+   border-radius: 5px;
+}
+
+.most-recent p {
+   position: relative;
+   top: 0px;
+}
+
+.most-recent .sent {
+   position: relative;
+   padding-right: 10px;
+   top: 11px;
+}
+
+.message-box {
+   position: absolute;
+   width: 100%;
+   height: 10%;
+
+   top: 489px;
+
+   border-top: white 2px solid;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+   background-color: rgb(2, 2, 41);
+}
+
+.message-box .msg-box-stuff input {
+   position: relative;
+
+   border: none;
+   border-radius: 5px;
+   background-color: rgb(0,0,0,0);
+
+   height: 70%;
+   width: 100%;
+   top: -4px;
+
+   left: -20px;
+}
+
+input:focus {
+   color: white;
+}
+
+
+.message-box .msg-box-stuff {
+   position: relative;
+   display: grid;
+   grid-template-columns: 1fr 10fr;
+
+   top: 20%;
+   left: 10px;
+   height: 100%;
+}
+
+.msg-box-stuff img {
+   position: relative;
+   top: 3px;
+   left: 5px;
+
+   cursor: pointer;
+}
+
+.rButton {
+   float: right;
+   font-size: 200%;
+   margin: 10px;
+}
+
+.r-most-recent {
+   position: relative;
+   top: 10px;
+   width: fit-content;
+   padding-left: 10px;
+   max-width: 90%;
+   right: 10px;
+   float: left;
+
+   color: white;
+
+   display: grid;
+   grid-template-columns: 1fr 10fr;
+   column-gap: 10px;
+
+   box-shadow: 0px 0px 10px 2px black;
+
+   border-radius: 5px;
+}
+
+.r-most-recent p {
+   position: relative;
+   top: 0px;
+}
+
+.r-most-recent .r-sent {
+   position: relative;
+   padding-right: 10px;
+   top: 11px;
+}

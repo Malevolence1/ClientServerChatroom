@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Bulletin Board</title>
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <header>
+         <h1>Bulletin Board - Project 2</h1>
+      </header>
+      <main>
+         <button class="rButton" type="button" onclick="receiveMsg()">Get Messaged</button>
+         <div class="chat-box">
+            <ul class="message" style="list-style-type: none;" id="message"></ul>
+            <div class="message-box">
+               <div class="msg-box-stuff">
+                  <img onclick="SendMsg()" src="images/send-arrow.png" width="25px">
+                  <input id="text" type="text" placeholder="Enter a message..." onkeydown="SendMsg(this)">
+               </div>
+            </div>
+         </div>
+      </main>
+   </body>
+   <script src="myscripts.js"></script>
+</html>
